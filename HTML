@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+<style>
+  .navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+label::after {
+	float:left;
+}
+</style>
+  
+  
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" style="background-color:#023d86;    border-color: #347cff;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">GE Power</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+  
+  
+  
+<div class="container" style="background-color: #d6d6d6;">
+  
+   <h3>Report Year 2020</h3>
+<form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label for="inputdefault" class="control-label col-sm-3" for="reportMonth"> <span class="pull-left"> Report Month </span> :</label>
+      <div class="col-sm-5">
+	  <select class="form-control" id="sel1">
+		<option> January </option>
+		<option> February </option>
+		<option> March </option>
+		<option> April </option>
+		<option> May </option>
+		<option> June </option>
+		<option> July </option>
+		<option> Aug </option>
+		<option> Sept </option>
+		<option> Oct </option>
+		<option> Nov </option>
+		<option> Dec </option>
+	  </select>
+      </div>
+    </div>
+	<h4 for="inputdefault">Update current month account data</h4>
+    <div class="form-group">
+	  <label for="inputdefault" class="control-label col-sm-3"> <span class="pull-left">Costar Accounting Summary Report </span>:</label>
+	  <div class="col-sm-5">
+		<input class="form-control" id="inputdefault" type="file">
+		<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+	  </div>
+    </div>
+	<div class="form-group">
+	  <label for="inputdefault" class="control-label col-sm-3"> <span class="pull-left">Total Lease Report</span> :</label>
+	  <div class="col-sm-5">
+		<input class="form-control" id="inputdefault" type="file">
+	  </div>
+    </div>
+	<div class="form-group">
+	  <label for="inputdefault" class="control-label col-sm-3"> <span class="pull-left">RE Unit Number and EQ Unit Number </span>:</label>
+	  <div class="col-sm-5">
+		<input class="form-control" id="inputdefault" type="file">
+	  </div>
+    </div>
+	<div class="form-group">
+	  <label for="inputdefault" class="control-label col-sm-3"> <span class="pull-left">MOR Rate and GAP Rate </span>:</label>
+	  <div class="col-sm-5">
+		<input class="form-control" id="inputdefault" type="file">
+	  </div>
+    </div>
+	<div class="form-group">
+	  <div class="" style="margin-right: 13px;">
+		<button class="btn btn-lg btn-primary pull-right" id="inputdefault" type="submit"> Proceed To Vaidation</button>
+	  </div>
+    </div>
+	
+	<!--<button class="btn btn-primary" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  <span class="sr-only">Loading...</span>
+</button>
+<button class="btn btn-primary" type="button" disabled>
+  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+  Loading...
+</button> -->
+
+    
+  </form>
+</div>
+
+</body>
+</html>
